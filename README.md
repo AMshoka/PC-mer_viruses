@@ -23,7 +23,11 @@
 ### Time Performace:
 As another advantage of our proposed encoding method, PC-mer can significantly improve the total processing time. Thanks to its powerful encoding algorithm and thus, facilitating usage of simple machine learning-based models to classify viral genomes, all classification experiments, have been performed on a desktop computer and a CPU processor. 
 
-![acc](https://user-images.githubusercontent.com/91915096/172798793-96896d39-16f8-4840-81f4-d142e9875d65.png)
+
+<img width="120" alt="Capture" src="https://user-images.githubusercontent.com/91915096/215282472-cc8dce02-c20d-40d1-b747-a07a8ec5ef02.png">
+
+
+
 
 
 
