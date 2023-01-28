@@ -1,5 +1,7 @@
 # An automated ultra-fast, memory-efficient, and accurate method for viral genome classification
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AMshoka/PC-mer_Corona/blob/main/Code/Training.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/github/AMshoka/PC-mer_Corona/blob/main/Code/Training.ipynb](https://colab.research.google.com/drive/1Ei5OB81gKAV7beit6opcCwhJvkf-Ho_M#scrollTo=pf5yyxr7W2ka))
+
+
 ## PC-mer Workflow
 ![PC-mer(workflow)](https://user-images.githubusercontent.com/91915096/172617347-b66dff7f-f6fa-4b39-abdf-2ad99c528854.png)
 ## INTRODUCTION
