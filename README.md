@@ -35,7 +35,7 @@ As another advantage of our proposed encoding method, PC-mer can significantly i
 ### Memory Consumption:
 It is worth mentioning that by reducing the size of encoded data, PC-mer facilitates usage of larger k-mers. Specifically, PC-mer is designed to reduce the computational overhead of k-mers, as well as the volume of the generated data, from O(4^k) to O(3×2^k). For example, assuming =7 , the traditional FCGR method generates a vector of size 16,384 for each genome sequence, while PC-mer generates a vector of size 12,288 for each genomic sequence, assuming k=12, which is much smaller than that of the FCGR’s generated data for k=7. It should be mentioned that assuming k-mers of size 12 in the FCGR method leads to a vector of size 16,777,216 per genome sequence. Also, PC-mer, similar to other k-mer-based methods, has the ability to convert sequences of any length into a fixed-length matrix. In this way, compared to methods such as integer and one-hot encoding, the number of extracted features remains constant. For more detailed comparison, the numbers of extracted features by the four methods (i.e. PC-mer (k = 11), k-mer (k = 11), integer, and one-hot). 
 
-<img width="950" alt="ءثئخقغ" src="https://user-images.githubusercontent.com/91915096/215283181-d6152874-e0ae-4eec-96da-8588db05b9c7.PNG">
+<img width="1050" alt="ءثئخقغ" src="https://user-images.githubusercontent.com/91915096/215283181-d6152874-e0ae-4eec-96da-8588db05b9c7.PNG">
 
 
 ## PREREQUISITES
