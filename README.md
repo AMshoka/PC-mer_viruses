@@ -18,17 +18,12 @@
 | HIV-1 (2)	| 99.2 	| 97 	| 97.2 	| 97.9 	|
 | Infl. A (1)	| 98.1 	| 86.2 	| 89.3 	| 87.1	|
 | Infl. A (2)	| 97.8 	| 82.2 	| 82.3 	| 82.6 	| 
-###  Test Accuracy (Covid-19 Dataset) 
-| Datasets 	| Testing datasets	| Prediction Accuracy (%)	| Predicted label 	| 
-|:---:	|:---:	|:---:	|:---:	|
-| Test-1 	| 29 Covid-19 Virus sequences	| 100 	| Riboviria 	| 
-| Test-2 	| 29 Covid-19 Virus sequences	| 100 	| Coronaviridae 	| 
-| Test-3(a/b) 	| 29 Covid-19 Virus sequences	| 100 	| Betacoronavirus	|
+
 
 ### Time Performace:
-As another advantage of our proposed encoding method, PC-mer can significantly improve the total processing time, which includes the runtimes of preprocessing, training, and testing procedures. Thanks to its powerful encoding algorithm and thus, facilitating usage of simple machine learning-based models to classify Coronaviridae family, all classification experiments, including preprocessing, training, and testing steps, have been performed on a desktop computer and a CPU processor. 
+As another advantage of our proposed encoding method, PC-mer can significantly improve the total processing time. Thanks to its powerful encoding algorithm and thus, facilitating usage of simple machine learning-based models to classify viral genomes, all classification experiments, have been performed on a desktop computer and a CPU processor. 
 
-![Time2(5)](https://user-images.githubusercontent.com/91915096/172781868-14a579f4-4542-43e4-980c-9094a3241d89.png)
+![Time2(5)]()
 
 ### Memory Consumption:
 It is worth mentioning that PC-mer encoding allows usage of larger k-mers by reducing the size of encoded data. Specifically, PC-mer encoding is designed to reduce the computational overhead of k-mers, as well as the volume of the generated data from O(4^k) to O(3×2^k). For example, assuming k=7 in the FCGR method, a vector of size 16,384 is generated for each genome sequence, while PC-mer encoding generates a vector of size 12,288 for each genomic sequence, assuming k=12, which is much smaller than that of the FCGR’s generated data for k=7. It should be mentioned that assuming k-mers of size 12 in the FCGR method leads to a vector of size 16,777,216 per genome sequence. As a key superiority, PC-mer encoding with k = 7 (that produces vectors of size 384 for each genome sequence) achieves equal or higher accuracy, compared to the MLDSP tool with k-mers of size 12. We can conclude that the data compression achieved by the PC-mer encoding not only increases the classification accuracy and the feasibility of using larger k-mers, but also it leads to significant reduction in preprocessing, training, and testing times.
