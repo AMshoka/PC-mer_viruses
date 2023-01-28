@@ -55,7 +55,7 @@ pip install pcmer
 from pcmer import features
 #sample code
 Seq = features.Change_DNA('AGGAAAAGCCAACCAACCTCGATCTCTTGTA')
-features = features.PC_mer(Seq)
+features = features.PC_mer(Seq,k)
 ```
 3. Main Features:
 
