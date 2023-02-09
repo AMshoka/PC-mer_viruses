@@ -42,22 +42,25 @@ It is worth mentioning that by reducing the size of encoded data, PC-mer facilit
 The method was implemented in Python 3.8 with the use of scikit-learn library running on a normal desktop computer (CPU: i7-6500 2.5 GHz, RAM: 8 GB RAM, HD: 256GB Lexar, GPU: GeForce GTX 920M. 
 # PC-mer Package
 
-Generate your own pc-mer.
+Now, generate your own pc-mer😉.
 
-## Instructions
+
+## Quick Access Instructions
 
 1. Install:
 ```python
-pip install pcmer
+pip install physicochemical-mers==1.0.0
 ```
 2. Generate pcmer vectors:
 
 ```python
 from pcmer import features
 #sample code
-Seq = features.Change_DNA('AGGAAAAGCCAACCAACCTCGATCTCTTGTA')
-features = features.PC_mer(Seq,k)
+Seq = features.Change_DNA('id\nAGGAAAAGCCAACCAACCTCGATCTCTTGTAcct')
+features = features.PC_mer(Seq, 2)
 ```
+## * A simple implementation *
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/14VFx61B0zlvhDrPtV2T-6vE6_blWJrBS#scrollTo=AfhPO8PA3Ojf)
 3. Main Features:
 
 * *Change_DNA(dna)*: Extracting sequences from fasta files and uppercasing their characters. 
